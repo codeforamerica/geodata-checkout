@@ -1,0 +1,38 @@
+head
+  meta(name="viewport", content="initial-scale=1.0, user-scalable=no")
+  title Code Enforcement Data Check-Out
+  link(rel='stylesheet', href='/stylesheets/leaflet.css', type='text/css')
+  link(rel='stylesheet', href='/pancontrol/stylesheets/L.Control.Pan.css', type='text/css')
+  // [if lte IE 8]
+    link(rel='stylesheet', href='/stylesheets/leaflet.ie.css', type='text/css')
+    link(rel='stylesheet', href='/pancontrol/stylesheets/L.Control.Pan.ie.css', type='text/css')
+  link(href='/stylesheets/bootstrap-mini.css', rel='stylesheet', type='text/css')
+  link(href='/stylesheets/jquery-ui-slider.css', rel='stylesheet', type='text/css')
+  link(href='/stylesheets/checkouttime.css', rel='stylesheet', type='text/css')
+  script(src='/scripts/leaflet.js', type='text/javascript')
+  script(src='/scripts/jquery-1.6.2.min.js', type='text/javascript')
+  script(src='/scripts/jquery-ui-slider.min.js', type='text/javascript')
+  script(type="text/javascript", src="/pancontrol/scripts/L.Control.Pan.js")
+  script(src='/scripts/checkouttimemaker.js', type='text/javascript')
+
+body
+  div#sidebar(style="left:initial;right:12%;border:1px solid #000;")
+    div#timeline
+      h2 Code Enforcement Timeline Maker
+      p
+        span Animate cases in your neighborhood from January 1997 to May 2012!
+        br
+        span 1) Move points on the blue shape to cover your neighborhood.
+        br
+        span 2) View as&nbsp;
+        a.visible(href="#", onclick="postGeo('html')") web map,
+        span &nbsp;
+        a.visible(href="#", onclick="postGeo('geojson')") GeoJSON,
+        span &nbsp;or&nbsp;
+        a.visible(href="#", onclick="postGeo('kml')") Google Earth / KML.
+        br
+        span Locations rounded to within a few blocks. See&nbsp;
+        a.visible(href="http://homestatus.herokuapp.com") HomeStatus
+        span &nbsp;for detailed cases from 2009-2012.
+
+  div#map
