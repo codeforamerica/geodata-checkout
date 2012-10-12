@@ -6,7 +6,7 @@ Step 1: Draw a polygon around your neighborhood ( using Leaflet.js polygon editi
 
 <img src="http://i.imgur.com/U9uW5.png"/>
 
-Step 2: Click the "View Web Map" link and you will land on a permalink to an interactive timeline-map ( powered by Mapbox.js )
+Step 2: Click the "View Web Map" link and you will land on <a href="http://maconmaps.herokuapp.com/timeline?customgeo=50789e4994661b0200000051">an interactive timeline-map</a> ( powered by Mapbox.js )
 
 <img src="http://codeforamerica.org/wp-content/uploads/2012/09/Screen-Shot-2012-09-24-at-3.54.11-PM.png"/>
 
