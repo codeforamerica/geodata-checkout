@@ -8,7 +8,6 @@ var express = require('express')
     , routes = require('./routes')
     , middleware = require('./middleware')
     , request = require('request')
-    , specialpoint = require('./specialpoint')
     , timepoint = require('./timepoint')
     , customgeo = require('./customgeo')
     ;
