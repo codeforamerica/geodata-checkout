@@ -23,7 +23,6 @@ var init = exports.init = function (config) {
   mongoose.connect(db_uri);
 
   var app = express.createServer();
-  var io = require('socket.io').listen(app);
 
   app.configure(function(){
     app.set('views', __dirname + '/views');
