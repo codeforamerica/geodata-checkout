@@ -3,6 +3,7 @@ var map, footprint;
 $(document).ready(function(){
   // make a Leaflet map
   map = new L.Map('map', { zoomControl: false, panControl: false });
+  map.attributionControl.setPrefix('');
   L.control.pan().addTo(map);
   L.control.zoom().addTo(map);
   var toner = 'http://{s}.tile.stamen.com/toner/{z}/{x}/{y}.png';
