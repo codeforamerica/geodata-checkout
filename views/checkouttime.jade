@@ -26,3 +26,5 @@ body
         a.visible(href="/timeline-at.geojson?customgeo=#{customgeo}") GeoJSON
 
   div#map
+  a.zoomer.zoomin(href="javascript:map.zoomBy(1);void(0);") +
+  a.zoomer.zoomout(href="javascript:map.zoomBy(-1);void(0);") -
