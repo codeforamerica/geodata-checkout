@@ -7,9 +7,7 @@ var express = require('express')
     , mongoose = require('mongoose')
     , routes = require('./routes')
     , middleware = require('./middleware')
-    , CartoDB = require('./cartodb/lib/cartodb')
     , request = require('request')
-    , specialpoint = require('./specialpoint')
     , timepoint = require('./timepoint')
     , customgeo = require('./customgeo')
     ;
@@ -23,7 +21,6 @@ var init = exports.init = function (config) {
   mongoose.connect(db_uri);
 
   var app = express.createServer();
-  var io = require('socket.io').listen(app);
 
   app.configure(function(){
     app.set('views', __dirname + '/views');
