@@ -32,11 +32,18 @@ MongoDB is a NoSQL database which supports <a href="http://www.mongodb.org/displ
 
 Leaflet.js from Cloudmade, MapBox.js from MapBox, Leaflet.js Pan Control, Node.js
 
-## Spin-off for Historic Macon
+## Historic Buildings: Macon & Chicago
 
-The timeline code was re-used in a spin-off for Historic Macon. <a href="https://github.com/mapmeld/HistoricMaconMap">Source Code</a>
+The timeline code was repurposed to show a <a href="http://historic-macon.herokuapp.com/timeline?customgeo=5080a0bf5766800200000346">building timeline</a> for Historic Macon.
 
 <img src="http://i.imgur.com/hayao.png"/>
+
+The neighborhood-drawing, timeline, and data checkout components help make sense of 400,000+ buildings and build dates from the City of Chicago
+
+<img src="http://i.imgur.com/S50kw.png"/>
+
+<a href="https://github.com/mapmeld/HistoricMaconMap">Source Code</a>
+
 
 ## About Poang
 
