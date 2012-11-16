@@ -38,7 +38,7 @@ The timeline code was repurposed to show a <a href="http://historic-macon.heroku
 
 <img src="http://i.imgur.com/hayao.png"/>
 
-The neighborhood-drawing, timeline, and data checkout components help make sense of 400,000+ buildings and build dates from the City of Chicago
+The <a href="http://historicchicago.heroku.com">Historic Chicago</a> app uses neighborhood-drawing and timeline components to make sense of 400,000+ buildings and build dates from the City of Chicago
 
 <img src="http://i.imgur.com/S50kw.png"/>
 
