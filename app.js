@@ -7,7 +7,6 @@ var express = require('express')
     , mongoose = require('mongoose')
     , routes = require('./routes')
     , middleware = require('./middleware')
-    , request = require('request')
     , timepoint = require('./timepoint')
     , customgeo = require('./customgeo')
     ;
@@ -175,5 +174,4 @@ if (!module.parent) {
   var config = require('./config');
   var app = init(config);
   app.listen(process.env.PORT || 3000);
-  console.info("Express server listening on port %d in %s mode", app.address().port, app.settings.env);
 }
