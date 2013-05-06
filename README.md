@@ -1,6 +1,8 @@
 # GeoData-Checkout
 
-GeoData-Checkout is an open data platform for geospatial and time-enabled data. Data is stored inside MongoDB and made available to users in an interactive timeline/map, time-enabled KML for Google Earth, and GeoJSON.
+GeoData-Checkout is an open data platform for geospatial and time-enabled data. Data is stored inside MongoDB (or <a href="https://github.com/mapmeld/geodata-checkout">PostGIS fork</a>) and made available to users in an interactive timeline/map, time-enabled KML for Google Earth, and GeoJSON.
+
+<a href="http://mapmeld.github.io/geodata-checkout/">Demo</a>
 
 Step 1: Draw a polygon around your neighborhood ( using Leaflet.js polygon editing tools )
 
@@ -27,6 +29,8 @@ MongoDB is a NoSQL database which supports <a href="http://www.mongodb.org/displ
         }
       }
     })
+
+If you prefer to use PostgreSQL / PostGIS, use <a href="https://github.com/mapmeld/geodata-checkout">this fork</a>
 
 ## Other technologies used
 
